@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Color de fondo */
+    background-color: #f4f4f4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,21 +9,29 @@ body {
 }
 
 .container {
-    background-color: #fff; /* Color del cuadro */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del cuadro */
-    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     max-width: 400px;
-    text-align: center;
+    text-align: left;
 }
 
-.title {
-    font-size: 18px;
+.header {
+    background-color: #87CEEB; /* Color celeste para el encabezado */
+    color: #fff; /* Texto blanco para el encabezado */
+    padding: 20px;
     font-weight: bold;
-    margin-bottom: 15px;
+    font-size: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.subheader {
+    padding: 15px;
+    font-size: 16px;
 }
 
 .data {
+    padding: 10px 20px;
     font-size: 14px;
-    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre datos */
 }
